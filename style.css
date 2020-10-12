@@ -24,9 +24,11 @@ html {
 body::-webkit-scrollbar {
   width: 8px;
 }
+
 body::-webkit-scrollbar-track {
   background: var(--scrollbarBG);
 }
+
 body::-webkit-scrollbar-thumb {
   background-color: var(--thumbBG) ;
   border-radius: 6px;
@@ -63,11 +65,9 @@ h4{
   letter-spacing: 1px;
   font-size: 28px;
   color: #212121;
-
 }
 h5{
   font-family: 'freightbig_medium_italic', serif;
-
 }
 
 p{
@@ -82,12 +82,12 @@ u {
 nav{
   border-bottom: solid 1px #000000;
 }
+
 .navbar-light .navbar-nav .nav-link{
   color: #2e5815;
 }
 
 .whatIdo{
-
 }
 /* unvisited link */
 a:link {
