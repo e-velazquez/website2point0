@@ -1,68 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Personal Porfolio">
-    <meta name="author" content="Elvia G. Velazquez">
-    <!--Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400;1,500;1,600;1,800&display=swap" rel="stylesheet">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!--Custom CSS -->
-    <link rel="stylesheet" href="style.css">
-
-    <title>Elvia G. Velazquez</title>
-    </head>
-
-      <body>
-        <!--Navigation bar -->
-        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="/"><img src="img/navBar.png" id="navBarIcon"></a>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="Personal Porfolio">
+      <meta name="author" content="Elvia G. Velazquez">
+      <title>Elvia G. Velazquez</title>
+      <!--Font Awesome Icons Import-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!--Bootstrap stylesheet-->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <!--CSS Stylesheet-->
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <!--Google Fonts Import-->
+      <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Inconsolata|Open+Sans|Poppins:300,400,600,700|Roboto:400,700&display=swap" rel="stylesheet">
+      <!--Font Awesome Icons Import-->
+      <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+   </head>
+   <!--Body-->
+   <body>
+      <!--Start of NavBar-->
+      <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top navBarBorder">
+         <div class="container-fluid">
+            <a class="navbar-brand" href="test.html" id="testHover" ><img src="img/navBar.png" id="navBarIcon" alt="navigation bar icon"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-              <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="education.html">Education</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Resume</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-              </ul>
-        </div>
-      </div>
-        </nav>
-
-        <div class="container-fluid">
-          <div class="row welcome text-center">
-            <div class="col-6">
-              <h4> Software Developer / Full Stack Web Developer </h4>
-              <h4> CHICAGO, IL · <a href="mailto:elviavelazquez@gmail.com" class="hoverLink">elviavelazquez@gmail.com</a> </h4>
-              <a href="https://www.linkedin.com/in/elvia-velazquez"><img src="images/icons/linkedIn-black.png" class="contactIcons" alt="LinkedIn Profile"></a>
-              <a href="mailto:elviavelazquez@gmail.com" class="hoverLink"><img src="images/icons/email-black.png" class="contactIcons" alt="Email Icon"></a>
-              <a href="Elvia_Velazquez_Resume.pdf"><img src="images/icons/resume-black.png" class="contactIcons" alt="Resume Icon"></a>
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="Elvia_Velazquez_Resume.pdf" target="_blank">resume</a>
+                  </li>
+                  <li class="nav-item">
+                     <!--<a class="nav-link" href="skills.html">skills</a>-->
+                     <a class="nav-link" href="skills.html">services</a>
+                  </li>
+                    <li class="nav-item">
+                       <a class="nav-link" href="designs.html">designs</a>
+                    </li>
+                    <li class="nav-item">
+                     <a class="nav-link" href="contact.html">contact</a>
+                  </li>
+               </ul>
             </div>
-            <hr>
-            <div class="col-6">
+         </div>
+      </nav>
+      <!--End of NavBar-->
 
-          </div>
-        </div>
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-      </body>
-    </html>
+      <!--Container Fluid-->
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-xl-12 text-center homeLeftDiv">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#2e5815" fill-opacity="1" d="M0,288L48,288C96,288,192,288,288,272C384,256,480,224,576,213.3C672,203,768,213,864,186.7C960,160,1056,96,1152,74.7C1248,53,1344,75,1392,85.3L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+              </svg>
+              <img src="img/portrait.png" alt="self portrait" id="selfPortrait">
+              <h1 id="homePageName">Elvia Vel&aacute;zquez</h1>
+              <h3 id="homepageTitle">Full Stack Web Developer/Graphic Designer</h3>
+              <h4 id="homeLocation"> CHICAGO, IL &#8226; <a href="mailto:elviavelazquez@gmail.com" id="homeEmail"> elviavelazquez@gmail.com </a> </h4>
+              <a href="https://www.linkedin.com/in/elvia-velazquez" target="_blank"><img src="img/icons/linkedIn-black.png" class="homeIcons" alt="LinkedIn Profile"></a>
+              <a href="mailto:elviavelazquez@gmail.com" class="hoverLink"><img src="img/icons/email-black.png" class="homeIcons" alt="Email Icon"></a>
+              <a href="Elvia_Velazquez_Resume.pdf" target="_blank"><img src="img/icons/resume-black.png" class="homeIcons" alt="Resume Icon"></a>
+
+
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#2e5815" fill-opacity="1" d="M0,288L48,288C96,288,192,288,288,272C384,256,480,224,576,213.3C672,203,768,213,864,186.7C960,160,1056,96,1152,74.7C1248,53,1344,75,1392,85.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+             </div>
+         </div>
+
+         <div class="container mb-5">
+               <!--Secion heading-->
+               <h2 class="text-uppercase text-center font-weight-bold my-4 pt-5" data-wow-delay="0.2s">What I do</h2>
+               <hr class="between-sections pb-2">
+               <!--First row-->
+               <div class="row wow fadeIn" data-wow-delay="0.2s">
+                 <div class="col-lg-3 col-md-6 text-center mt-1">
+                   <div class="icon-area">
+                     <div class="circle-icon">
+                       <i class="fas fa-desktop"></i>
+                     </div>
+                     <br>
+                     <strong class="whatIdo">UI/UX</strong>
+                   </div>
+                 </div>
+                 <div class="col-lg-3 col-md-6 text-center mt-1">
+                   <div class="icon-area">
+                     <div class="circle-icon">
+                       <i class="fas fa-code"></i>
+                     </div>
+                     <br>
+                     <strong class="whatIdo">SOFTWARE DEVELOPMENT</strong>
+                   </div>
+                 </div>
+    <!--             <div class="col-lg-3 col-md-6 text-center mt-1">
+                   <div class="icon-area">
+                     <div class="circle-icon">
+                       <i class="fas fa-chart-bar"></i>
+                     </div>
+                     <br>
+                     <strong class="whatIdo">DATA ANALYTICS</strong>
+                   </div>
+                 </div>-->
+                 <div class="col-lg-3 col-md-6 text-center mt-1">
+                   <div class="icon-area">
+                     <div class="circle-icon">
+                       <i class="far fa-image"></i>
+                     </div>
+                     <br>
+                     <strong class="whatIdo">GRAPHIC DESIGN</strong>
+                   </div>
+                 </div>
+               </div>
+               <hr class="between-sections pb-2">
+
+               <!--/First row-->
+             </div>
+
+      <!--End of Container Fluid-->
+      </div>
+
+
+<!-- Footer -->
+<footer class="page-footer font-small stylish-color-dark pt-4">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Content -->
+        <a href="index.html"> <img src="img/navBar.png" class="mt-3"></a>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Navigation</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="index.html">HOME</a>
+          </li>
+          <li>
+            <a href="Elvia_Velazquez_Resume.pdf" target="_blank">RESUME</a>
+          </li>
+          <li>
+            <a href="designs.html">DESIGNS</a>
+          </li>
+          <li>
+            <a  href="contact.html">CONTACT</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contact</h5>
+         <a href="mailto:elviavelazquez@gmail.com"><i class="far fa-envelope footerEmailIcon"></i></a>
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Social</h5>
+
+        <!-- Social buttons -->
+          <a href="https://www.linkedin.com/in/elvia-velazquez" target="_blank"> <i class="fab fa-linkedin-in socialIcons"></i> </a>
+          <a href="https://www.instagram.com/twentydesigns/" target="_blank"><i class="fab fa-instagram socialIcons"></i></a>
+
+        <!-- Social buttons -->
+
+
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-4">
+    <span class="footerName">Elvia Velazquez &copy; 2020</span>
+
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+      <!--Bootstrap Javascript-->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+   </body>
+   <!--End of Body-->
+</html>
